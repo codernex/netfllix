@@ -1,6 +1,6 @@
 # Next.Js + Tailwind Css Netflix Clone
 
-<img src="https://ibb.co/XkWppZW">
+![Netflix]("https://i.ibb.co/h1gHHRg/Web-capture-28-7-2022-155559-localhost.jpg)
 
 ```
 
