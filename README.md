@@ -1,6 +1,6 @@
 # Next.Js + Tailwind Css Netflix Clone
 
-![Netflix]("https://i.ibb.co/h1gHHRg/Web-capture-28-7-2022-155559-localhost.jpg)
+[![Netflix](https://i.postimg.cc/q7wtGjRB/Web-capture-28-7-2022-155559-localhost.jpg)](https://github.com/borhan-dev/)
 
 ```
 
