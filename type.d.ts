@@ -31,3 +31,12 @@ interface Element {
     | 'Trailer'
     | 'Teaser';
 }
+
+interface IAuth {
+  user: User | null;
+  loading: boolean;
+  err: Error | null;
+  signUp: (email: string, password: string) => Promise<void>;
+  signIn: (email: string, password: string) => Promise<void>;
+  logout: () => Promise<void>;
+}

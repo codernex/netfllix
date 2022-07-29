@@ -1,8 +1,10 @@
 import React, { useEffect } from 'react';
 import { SearchIcon, BellIcon } from '@heroicons/react/outline';
+import { useAuth } from '../hooks';
 
 export const Header: React.FC = (): JSX.Element => {
   const [isScrolled, setIsScrolled] = React.useState<boolean>(false);
+  const { logout } = useAuth();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,6 +46,7 @@ export const Header: React.FC = (): JSX.Element => {
           src='https://rb.gy/g1pwyx'
           alt=''
           className='cursor-pointer rounded-full'
+          onClick={() => logout()}
         />
       </div>
     </header>
